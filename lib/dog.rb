@@ -49,11 +49,11 @@ def self.drop_table
   end
 
   def self.find_by_id(id)
-    sql = <<-SQL 
-      SELECT * 
+    sql = <<-SQL
+      SELECT *
       FROM dogs
       WHERE id = ?
-      LIMIT 1 
+      LIMIT 1
     SQL
 
 end
