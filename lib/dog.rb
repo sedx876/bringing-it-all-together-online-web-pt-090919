@@ -55,5 +55,6 @@ def self.drop_table
       WHERE id = ?
       LIMIT 1
     SQL
+  end
 
 end
