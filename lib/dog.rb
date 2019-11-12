@@ -26,7 +26,7 @@ def self.drop_table
 
   def save
     sql = <<-SQL
-      INSERT INTO dogs (name, breed)
+      INSERT INTO dogs (name, breed, id)
       VALUES (?, ?)
     SQL
 
